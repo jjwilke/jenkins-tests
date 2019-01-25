@@ -8,5 +8,8 @@ enable_testing()
 add_test(NAME test1 COMMAND myTester)
 add_test(NAME test2 COMMAND myTester 4)
 
+install(TARGETS myTester
+  RUNTIME DESTINATION bin)
+
 
 
