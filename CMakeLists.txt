@@ -2,8 +2,6 @@ cmake_minimum_required (VERSION 3.9)
 
 project (JenkinsTests)
 
-find_package(GTest REQUIRED)
-
 add_executable(myTester test.cc)
 
 enable_testing()
